@@ -1,0 +1,7 @@
+---
+active_modules: [pygments, tags, blog, latex]
+author: Alexander Lukyanchikov
+canonical_url: http://icron.org/
+modules:
+  pygments:
+    style: tango
