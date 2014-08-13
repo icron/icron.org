@@ -5,11 +5,7 @@ build:
 	@run-rstblog build
 	@echo "Build HTML"
 
-publish:
-	build
-	css
-	upload
-	git pull
+publish: git build css upload
 
 css: css_minify css_timestamp
 
@@ -28,3 +24,6 @@ css_timestamp:
 upload:
 	rsync -a _build/ ${user}@icron.org:${path}
 	@echo "Done"
+
+git:
+	git pull
