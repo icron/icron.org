@@ -11,4 +11,4 @@ communication channels:
 
 -   via `email <arbuscula@gmail.com>`_
 -   send me a message on `github <https://github.com/icron>`_
--   reach out to me on `twitter <https://twitter.com/icront>`.
+-   reach out to me on `twitter <https://twitter.com/icront>`_.

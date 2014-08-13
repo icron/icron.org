@@ -5,7 +5,11 @@ build:
 	@run-rstblog build
 	@echo "Build HTML"
 
-publish: build upload
+publish:
+    build
+    css
+    upload
+    git pull
 
 css: css_minify css_timestamp
 
