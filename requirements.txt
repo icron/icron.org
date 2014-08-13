@@ -1,0 +1,4 @@
+Pygments==1.5
+Fabric==1.4.3
+cssmin==0.1.4
+lxml==3.2.3
