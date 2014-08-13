@@ -6,10 +6,10 @@ build:
 	@echo "Build HTML"
 
 publish:
-    build
-    css
-    upload
-    git pull
+	build
+	css
+	upload
+	git pull
 
 css: css_minify css_timestamp
 
@@ -26,5 +26,5 @@ css_timestamp:
 	@echo "Timestamp CSS"
 
 upload:
-    rsync -a _build/ ${user}@icron.org:${path}
-    @echo "Done"
+	rsync -a _build/ ${user}@icron.org:${path}
+	@echo "Done"
