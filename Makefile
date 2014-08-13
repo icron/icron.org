@@ -5,6 +5,8 @@ build:
 	@run-rstblog build
 	@echo "Build HTML"
 
+publish: build upload
+
 css: css_minify css_timestamp
 
 css_minify:
@@ -18,3 +20,7 @@ css_timestamp:
 	@find _build -type f -exec sed -i "s/\(link.*\)style.css/\\1style.css?${TIMESTAMP}/g" {} \;  
 	@find _build -type f -exec sed -i "s/\(link.*\)_pygments.css/\\1_pygments.css?${TIMESTAMP}/g" {} \;
 	@echo "Timestamp CSS"
+
+upload:
+    rsync -a _build/ ${user}@icron.org:${path}
+    @echo "Done"
