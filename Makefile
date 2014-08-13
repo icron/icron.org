@@ -2,7 +2,7 @@ TIMESTAMP = `date +'%s'`
 all: build css
 
 build:
-    @rm -rf _build/
+	@rm -rf _build/
 	@run-rstblog build
 	@echo "Build HTML"
 
