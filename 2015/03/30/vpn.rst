@@ -3,7 +3,7 @@ tags: [vpn, script]
 summary: |
   Build your VPN in one click.
 
-VPN SCRIPT
+VPN script
 ==========
 
 .. sourcecode:: bash
