@@ -1,5 +1,5 @@
 public: yes
-tags: [about]
+tags: [about, developer]
 summary: |
   I'm a developer interested in web development, CPA and RTB networks,  and tons of other stuff.
 
