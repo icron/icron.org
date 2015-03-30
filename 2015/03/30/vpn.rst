@@ -6,6 +6,8 @@ summary: |
 VPN script
 ==========
 
+Build your VPN in one click.
+
 .. sourcecode:: bash
 
     #!/bin/bash
