@@ -1,10 +1,10 @@
 public: yes
-tags: [vpn, script]
+tags: [vpn, script, bash]
 summary: |
   Build your VPN in one click.
 
-VPN script
-==========
+Build VPN
+=========
 
 Build your VPN in one click.
 
